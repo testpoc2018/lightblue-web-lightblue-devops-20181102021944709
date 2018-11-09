@@ -3,6 +3,14 @@
     "protocol": "http",
     "host": "184.172.233.10:30120"
   },
-  "APIs": {
-  }
+ "APIs":	{
+	"catalog": {
+		"host": "lightblue-catalog-<suffix>.mybluemix.net",
+		"base_path": "/micro"
+	},
+	"customer": {
+		"host": "lightblue-customer-<suffix>.mybluemix.net",
+		"base_path": "/micro"
+	}
+ }
 }
